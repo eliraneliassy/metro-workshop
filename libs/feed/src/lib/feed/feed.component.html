@@ -1,0 +1,3 @@
+<ng-container *ngFor="let book of books$ | async">
+  <office-book [book]="book" (addToCart)="addToCart($event)"></office-book>
+</ng-container>

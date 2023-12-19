@@ -1,0 +1,10 @@
+<div class="container">
+  <ul>
+    <li><a routerLink="feed"> Feed </a></li>
+    <li><a routerLink="cart"> Cart </a></li>
+  </ul>
+
+  <div class="cart">
+    # of items in cart: {{numberOfItemsInCart$ | async}}
+  </div>
+</div>
